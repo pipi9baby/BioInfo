@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st June 2018//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_180601.dtd">
+<PubmedArticleSet>
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">30266036</PMID>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>09</Month>
+            <Day>28</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1476-5381</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2018</Year>
+                        <Month>Sep</Month>
+                        <Day>28</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>British journal of pharmacology</Title>
+                <ISOAbbreviation>Br. J. Pharmacol.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>ABT-199 (Venetoclax), a BH3-mimetic Bcl-2 inhibitor, does not cause Ca<sup>2+</sup> -signalling dysregulation or toxicity in pancreatic acinar cells.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1111/bph.14505</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND AND PURPOSE" NlmCategory="OBJECTIVE">Many cancer cells depend on anti-apoptotic B cell lymphoma 2 (Bcl-2) proteins for their survival. Bcl-2 antagonism through BH3 mimetics emerged as novel anti-cancer therapy. ABT-199 (Venetoclax), a recently developed BH3 mimetic inhibiting selectively Bcl-2, was introduced into the clinic for treatment of relapsed chronic lymphocytic leukaemia. Early generations of Bcl-2 inhibitors evoked sustained Ca<sup>2+</sup> responses in pancreatic acinar cells (PACs) inducing cell death. Therefore, BH3 mimetics could potentially be toxic for the pancreas when used to treat cancer. Although ABT-199 was shown to kill Bcl-2-dependent cancer cells without affecting intracellular Ca<sup>2+</sup> signalling, its effects on PACs have not yet been determined. Hence, it becomes essential and timely to assess whether the recently approved anti-leukaemic drug might have potentially pancreatotoxic effects.</AbstractText>
+                <AbstractText Label="EXPERIMENTAL APPROACH" NlmCategory="METHODS">Single-cell Ca<sup>2+</sup> measurements and cell death analysis were performed on isolated mouse PACs.</AbstractText>
+                <AbstractText Label="KEY RESULTS" NlmCategory="RESULTS">We show that inhibition of Bcl-2 via ABT-199 neither elicited intracellular Ca<sup>2+</sup> signalling on its own nor potentiated Ca<sup>2+</sup> signalling induced by physiological/pathophysiological stimuli in PACs. Although ABT-199 did not affect cell death in PACs, using conditions that killed ABT-199 sensitive cancer cells, cytosolic Ca<sup>2+</sup> extrusion was slightly enhanced in the presence of the drug. In contrast, inhibition of Bcl-X<sub>L</sub> potentiated pathophysiological Ca<sup>2+</sup> responses in PACs, without exacerbating cell death.</AbstractText>
+                <AbstractText Label="CONCLUSION AND IMPLICATIONS" NlmCategory="CONCLUSIONS">Our results demonstrate that apart from having a modest effect on cytosolic Ca<sup>2+</sup> extrusion, ABT-199 does not alter substantially intracellular Ca<sup>2+</sup> homeostasis in normal PACs and should be safe for the pancreas during cancer treatment.</AbstractText>
+                <CopyrightInformation>This article is protected by copyright. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Jakubowska</LastName>
+                    <ForeName>Monika A</ForeName>
+                    <Initials>MA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Medical Research Council Group, School of Biosciences, Cardiff University, The Sir Martin Evans Building, Museum Avenue, Cardiff, CF10 3AX, Wales, UK.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>International Associated Laboratory (LIA), Malopolska Centre of Biotechnology, Jagiellonian University, Gronostajowa 7, 30-387, Krakow, Poland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kerkhofs</LastName>
+                    <ForeName>Martijn</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Laboratory of Molecular and Cellular Signaling, Department of Cellular and Molecular Medicine, KU Leuven, 3000, Leuven, Belgium.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Martines</LastName>
+                    <ForeName>Claudio</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Molecular Hematology Unit, International Centre for Genetic Engineering &amp; Biotechnology, 34149, Trieste, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Efremov</LastName>
+                    <ForeName>Dimitar G</ForeName>
+                    <Initials>DG</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Molecular Hematology Unit, International Centre for Genetic Engineering &amp; Biotechnology, 34149, Trieste, Italy.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gerasimenko</LastName>
+                    <ForeName>Julia V</ForeName>
+                    <Initials>JV</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Medical Research Council Group, School of Biosciences, Cardiff University, The Sir Martin Evans Building, Museum Avenue, Cardiff, CF10 3AX, Wales, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gerasimenko</LastName>
+                    <ForeName>Oleg V</ForeName>
+                    <Initials>OV</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Medical Research Council Group, School of Biosciences, Cardiff University, The Sir Martin Evans Building, Museum Avenue, Cardiff, CF10 3AX, Wales, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Petersen</LastName>
+                    <ForeName>Ole H</ForeName>
+                    <Initials>OH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Medical Research Council Group, School of Biosciences, Cardiff University, The Sir Martin Evans Building, Museum Avenue, Cardiff, CF10 3AX, Wales, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bultynck</LastName>
+                    <ForeName>Geert</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Laboratory of Molecular and Cellular Signaling, Department of Cellular and Molecular Medicine, KU Leuven, 3000, Leuven, Belgium.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Vervliet</LastName>
+                    <ForeName>Tim</ForeName>
+                    <Initials>T</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0002-4030-5875</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Laboratory of Molecular and Cellular Signaling, Department of Cellular and Molecular Medicine, KU Leuven, 3000, Leuven, Belgium.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ferdek</LastName>
+                    <ForeName>Pawel E</ForeName>
+                    <Initials>PE</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Medical Research Council Group, School of Biosciences, Cardiff University, The Sir Martin Evans Building, Museum Avenue, Cardiff, CF10 3AX, Wales, UK.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Cell Biology, Faculty of Biochemistry, Biophysics and Biotechnology, Jagiellonian University, Gronostajowa 7, 30-387, Krakow, Poland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2018</Year>
+                <Month>09</Month>
+                <Day>28</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Br J Pharmacol</MedlineTA>
+            <NlmUniqueID>7502536</NlmUniqueID>
+            <ISSNLinking>0007-1188</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">ABT-199/Venetoclax</Keyword>
+            <Keyword MajorTopicYN="N">BH3 mimetic</Keyword>
+            <Keyword MajorTopicYN="N">Bcl-2</Keyword>
+            <Keyword MajorTopicYN="N">Ca2+ signalling</Keyword>
+            <Keyword MajorTopicYN="N">cell death</Keyword>
+            <Keyword MajorTopicYN="N">pancreatic acinar cells</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2018</Year>
+                <Month>03</Month>
+                <Day>01</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2018</Year>
+                <Month>08</Month>
+                <Day>21</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2018</Year>
+                <Month>09</Month>
+                <Day>13</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2018</Year>
+                <Month>9</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2018</Year>
+                <Month>9</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2018</Year>
+                <Month>9</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">30266036</ArticleId>
+            <ArticleId IdType="doi">10.1111/bph.14505</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+</PubmedArticleSet>

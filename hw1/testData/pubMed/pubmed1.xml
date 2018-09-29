@@ -1,0 +1,191 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st June 2018//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_180601.dtd">
+<PubmedArticleSet>
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">30244542</PMID>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>09</Month>
+            <Day>23</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1552-4833</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2018</Year>
+                        <Month>Sep</Month>
+                        <Day>23</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>American journal of medical genetics. Part A</Title>
+                <ISOAbbreviation>Am. J. Med. Genet. A</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Phenotypic and molecular insights into PQBP1-related intellectual disability.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1002/ajmg.a.40479</ELocationID>
+            <Abstract>
+                <AbstractText>We report two discordant clinical and imaging features in four male patients from two unrelated families of Egyptian descent with hemizygous pathogenic variants in PQBP1. The three patients of the first family displayed the typical features underlying PQBP1 such as the long triangular face, bulbous nose, hypoplastic malar region, and micrognathia, which were subsequently confirmed using targeted sequence analysis that showed a previously reported nonsense mutation c.586C&gt;T p.R196*. Whole exome sequencing identified a novel missense PQBP1 variant c.530G&gt;A:p.R177H in the second family, in which the index patient presented with intellectual disability and dysmorphic facial features reminiscent of Kabuki-like syndrome and his brain magnetic resonance imaging revealed partial agenesis of corpus callosum, mild vermis, and brainstem hypoplasia. These imaging features are distinct from the previously described with a well-known phenotype that is already known for PQBP1. This report expands the phenotypic spectrum of PQBP1-related disorders and is the second reported missense PQBP1 variant. Further, it highlights the possible role of PQBP1 in hindbrain development.</AbstractText>
+                <CopyrightInformation>© 2018 Wiley Periodicals, Inc.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Abdel-Salam</LastName>
+                    <ForeName>Ghada M H</ForeName>
+                    <Initials>GMH</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0003-2893-8802</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Clinical Genetics Department, Human Genetics and Genome Research Division, National Research Centre, Cairo, Egypt.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Miyake</LastName>
+                    <ForeName>Noriko</ForeName>
+                    <Initials>N</Initials>
+                    <Identifier Source="ORCID">http://orcid.org/0000-0003-0987-310X</Identifier>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Human Genetics, Yokohama City University Graduate School of Medicine, Yokohama, Japan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Abdel-Hamid</LastName>
+                    <ForeName>Mohamed S</ForeName>
+                    <Initials>MS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Medical Molecular Genetics Department, Human Genetics and Genome Research Division, National Research Centre, Cairo, Egypt.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sayed</LastName>
+                    <ForeName>Inas S M</ForeName>
+                    <Initials>ISM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Orodental Genetics Department, Human Genetics and Genome Research Division, National Research Centre, Cairo, Egypt.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gadelhak</LastName>
+                    <ForeName>Mohamed I</ForeName>
+                    <Initials>MI</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Clinical Genetics Department, Human Genetics and Genome Research Division, National Research Centre, Cairo, Egypt.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ismail</LastName>
+                    <ForeName>Samira I</ForeName>
+                    <Initials>SI</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Clinical Genetics Department, Human Genetics and Genome Research Division, National Research Centre, Cairo, Egypt.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Aglan</LastName>
+                    <ForeName>Mona S</ForeName>
+                    <Initials>MS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Clinical Genetics Department, Human Genetics and Genome Research Division, National Research Centre, Cairo, Egypt.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Afifi</LastName>
+                    <ForeName>Hanan H</ForeName>
+                    <Initials>HH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Clinical Genetics Department, Human Genetics and Genome Research Division, National Research Centre, Cairo, Egypt.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Temtamy</LastName>
+                    <ForeName>Samia A</ForeName>
+                    <Initials>SA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Clinical Genetics Department, Human Genetics and Genome Research Division, National Research Centre, Cairo, Egypt.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Matsumoto</LastName>
+                    <ForeName>Naomichi</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Human Genetics, Yokohama City University Graduate School of Medicine, Yokohama, Japan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D002363">Case Reports</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2018</Year>
+                <Month>09</Month>
+                <Day>23</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Am J Med Genet A</MedlineTA>
+            <NlmUniqueID>101235741</NlmUniqueID>
+            <ISSNLinking>1552-4825</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">
+PQBP1</Keyword>
+            <Keyword MajorTopicYN="N">X-linked</Keyword>
+            <Keyword MajorTopicYN="N">agenesis of corpus callosum</Keyword>
+            <Keyword MajorTopicYN="N">brainstem hypoplasia</Keyword>
+            <Keyword MajorTopicYN="N">intellectual disability</Keyword>
+            <Keyword MajorTopicYN="N">microcephaly</Keyword>
+            <Keyword MajorTopicYN="N">missense variant</Keyword>
+            <Keyword MajorTopicYN="N">vermis hypoplasia</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2018</Year>
+                <Month>04</Month>
+                <Day>06</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2018</Year>
+                <Month>06</Month>
+                <Day>24</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2018</Year>
+                <Month>06</Month>
+                <Day>29</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2018</Year>
+                <Month>9</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2018</Year>
+                <Month>9</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2018</Year>
+                <Month>9</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">30244542</ArticleId>
+            <ArticleId IdType="doi">10.1002/ajmg.a.40479</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+</PubmedArticleSet>

@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st June 2018//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_180601.dtd">
+<PubmedArticleSet>
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">30266037</PMID>
+        <DateRevised>
+            <Year>2018</Year>
+            <Month>09</Month>
+            <Day>28</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1468-1331</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2018</Year>
+                        <Month>Sep</Month>
+                        <Day>28</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>European journal of neurology</Title>
+                <ISOAbbreviation>Eur. J. Neurol.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A cost utility analysis of decompressive hemicraniectomy vs. medical treatment in the management of space occupying brain oedema post middle cerebral artery infarction.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1111/ene.13814</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND AND PURPOSE" NlmCategory="OBJECTIVE">Data from randomly controlled trials has indicated that a decompressive hemicraniectomy is more clinically effective than medical treatment in the management of space occupying brain oedema post middle cerebral artery infarction. This economic evaluation compares the impact of the two options in the UK. No recent study has conducted an economic evaluation on this topic for the UK.</AbstractText>
+                <AbstractText Label="METHOD" NlmCategory="METHODS">A cost utility analysis over a time period of one year was used, measuring benefits in terms of Quality Adjusted Life Years and costs in pound sterling, discounted to 2015 prices. The evaluation was from the perspective of the NHS, the largest healthcare provider in the UK.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The cost utility analysis found an incremental cost effectiveness of £116,595.10 for every QALY gained if patients were offered a decompressive hemicraniectomy compared to the best medical treatment.</AbstractText>
+                <AbstractText Label="DISCUSSION" NlmCategory="CONCLUSIONS">This is above the NICE 'cost effective' threshold of £20,000-£30,000 £/QALY, but lower mortality rates associated with the surgical alternative raises ethical considerations for healthcare providers in the UK. This article is protected by copyright. All rights reserved.</AbstractText>
+                <CopyrightInformation>This article is protected by copyright. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Bhattacharyya</LastName>
+                    <ForeName>Anudeep</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Imperial College London, Faculty of Medicine, Exhibition RoadLondonSW7 2AZ, SW7 2AZ, London, United Kingdom of Great Britain and Northern Ireland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tahir</LastName>
+                    <ForeName>Anas</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Imperial College London, Faculty of Medicine, Exhibition RoadLondonSW7 2AZ, SW7 2AZ, London, United Kingdom of Great Britain and Northern Ireland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chandrashekar</LastName>
+                    <ForeName>Abhinaya</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Imperial College London, Faculty of Medicine, Exhibition RoadLondonSW7 2AZ, SW7 2AZ, London, United Kingdom of Great Britain and Northern Ireland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Vasisht</LastName>
+                    <ForeName>Shivani</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Imperial College London, Faculty of Medicine, Exhibition RoadLondonSW7 2AZ, SW7 2AZ, London, United Kingdom of Great Britain and Northern Ireland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Stinson</LastName>
+                    <ForeName>Luke</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Imperial College London, Faculty of Medicine, Exhibition RoadLondonSW7 2AZ, SW7 2AZ, London, United Kingdom of Great Britain and Northern Ireland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Omatseye</LastName>
+                    <ForeName>Joyce</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Imperial College London, Faculty of Medicine, Exhibition RoadLondonSW7 2AZ, SW7 2AZ, London, United Kingdom of Great Britain and Northern Ireland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2018</Year>
+                <Month>09</Month>
+                <Day>28</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Eur J Neurol</MedlineTA>
+            <NlmUniqueID>9506311</NlmUniqueID>
+            <ISSNLinking>1351-5101</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Cost Utility Analysis</Keyword>
+            <Keyword MajorTopicYN="N">Hemicraniectomy</Keyword>
+            <Keyword MajorTopicYN="N">Middle Cerebral Artery Infarction</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2018</Year>
+                <Month>9</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2018</Year>
+                <Month>9</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2018</Year>
+                <Month>9</Month>
+                <Day>29</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">30266037</ArticleId>
+            <ArticleId IdType="doi">10.1111/ene.13814</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+</PubmedArticleSet>
