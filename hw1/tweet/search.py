@@ -38,7 +38,7 @@ while True:
         #catches TweepError when rate limiting occurs, sleeps, then restarts.
         #nominally 15 minnutes, make a bit longer to avoid attention.
         print("sleeping....")
-        time.sleep(60*16)
+        time.sleep(60*1)
         user = next(users)
     except StopIteration:
         break

@@ -2,6 +2,7 @@
 import json
 import numpy as np
 from tkinter import *
+import pickle
 import re
 from gensim.models import word2vec
 from pattern.en import lemma
@@ -29,7 +30,7 @@ def Content2wv(line):
 				try:
 					vector += np.array(model.wv[lemma(match[0])])
 				except:
-					print(lemma(match[0]))
+					#print(lemma(match[0]))
 					vector += np.zeros((100, 100), dtype=np.float)
 		else:
 			tmp = np.full((100, 100), -1, dtype=float)
@@ -63,20 +64,19 @@ def cleanhtml(raw_html):
 	cleantext = re.sub(cleanr, '', raw_html)
 	return cleantext
 
-inputFile = r"/Users/pipi9baby/Desktop/bioInfo/pubmed5.xml"
-trainFile = r"/Users/pipi9baby/Desktop/bioInfo/trainfile.txt"
-testPath = r"/Users/pipi9baby/Desktop/bioInfo/test.txt"
-libraryPath = r"/Users/pipi9baby/Desktop/bioInfo/text8"
-keyword = "reported"
+inputFile = r"/Users/pipi9baby/Desktop/bioInfo/hw1/testData/pubMed/pubmed4.xml"
+trainFile = r"/Users/pipi9baby/Desktop/bioInfo/eosModel.pickle"
+libraryPath = r"/Users/pipi9baby/Desktop/bioInfo/hw1/corpus/text8.model"
+keyword = input("請輸入想搜尋的關鍵字：")
 #訓練語料庫
 #sentences = word2vec.Text8Corpus(libraryPath)# 加载语料
 #model = word2vec.Word2Vec(sentences, size=100)  # 训练skip-gram模型; 默认window=5
 #保存model，以便重用
 #model.save("text8.model")
 #讀model出來
-model = word2vec.Word2Vec.load("text8.model")
+model = word2vec.Word2Vec.load(libraryPath)
 
-fr = open(inputFile,'r')
+fr = open(inputFile)
 lemmakey = lemma(keyword)
 
 window = Tk()
@@ -134,13 +134,13 @@ if('.xml' in inputFile):
 else:
 	alltext = fr.read()
 	#留言
-	textpat = re.compile(r'"text": "([^\"\\]+)"')
+	textpat = re.compile(r'\n[\W]{4}"text": "(.+)",')
 	textmatch = textpat.findall(alltext)
 	#時間
-	timepat = re.compile(r'"created_at": "([^\"\\]+)"')
+	timepat = re.compile(r'\n[\W]{4}"created_at": "(.+)",')
 	timematch = timepat.findall(alltext)
 	#留言者
-	userpat = re.compile(r'"screen_name": "([^\"\\]+)"')
+	userpat = re.compile(r'\n[\W]{8}"screen_name": "(.+)",')
 	usermatch = userpat.findall(alltext)
 
 	#顯示視窗
@@ -162,12 +162,6 @@ else:
 		text += (textmatch[i] + " ")
 		printText.insert(END, "\n" + timematch[i] + "\n", 'time')
 
-train_fr = open(trainFile,"r")
-traindata = []
-#來建判斷斷句model
-for line in train_fr.readlines():
-	traindata.append(Content2wv(line))
-
 #先輸出部分資訊
 #顯示此檔案的字元數
 printText.insert(END, '\n字元數(不含空白)為：'+str(CountCharNum(text))+'\n', 'follow')
@@ -177,37 +171,46 @@ printText.pack(side=LEFT)
 scroll.pack(side=RIGHT, fill=Y)
 
 #機器學習mlp
+"""
+train_fr = open(trainFile,"r")
+traindata = []
+#來建判斷斷句model
+for line in train_fr.readlines():
+	traindata.append(Content2wv(line))
 targetlist = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0]
-ans = [1,1,0,0,0,1,1,1,1,1,1,1,1,1,1]
 print("開始train")
 cls = svm.SVC()
 print("fit")
 cls.fit(traindata, targetlist)
-
-print("predict")
+print("輸出model")
+#保存Model
+with open('eosModel.pickle', 'wb') as f:
+	pickle.dump(cls, f)
+"""
+#讀取Model
+with open(trainFile, 'rb') as f:
+	cls = pickle.load(f)
 
 index = 1
 endChar = ['.','!','?']
 num = 0
-while True:
-	if len(text) <= 1:
-		break
+en = 0
+print("在做斷句分析！")
+while en != 100:
 	tmpIndex = find_NthLi(text,endChar,index)+1
 	tmptext = text[:tmpIndex]
 	testdata = Content2wv(tmptext)
 	predictions = cls.predict([testdata])
 
-	#lastW = text[tmpIndex+1]
 	if predictions[0] == 1:
 		text = text[tmpIndex:].strip()
 		index = 0
 		num += 1
+		en = 0
 	else:
+		en+=1
 		index = tmpIndex
 
 printText.insert(END, '\n句數為：'+str(num)+'\n', 'follow')
 
 window.mainloop()
-
-#求accurancy
-#print(model.wv["doctor's"])
