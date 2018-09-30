@@ -1,8 +1,11 @@
 # BioInfo
 # 作業一
-# 開發環境：Python
-# IDE：VS code
-# 使用到的套件：numpy(做矩陣運算)、tkinter(圖形化介面)、pickle(保存train好的機器學習模型)、gensim(計算word to vector)、pattern(做字詞歸一)、sklearn(機器學習)
+# 開發環境：
+Python
+# IDE：
+VS code
+# 使用到的套件：
+numpy(做矩陣運算)、tkinter(圖形化介面)、pickle(保存train好的機器學習模型)、gensim(計算word to vector)、pattern(做字詞歸一)、sklearn(機器學習)
 
 # 需求：
 輸入檔案路徑（XML或JSON）＆關鍵字，用圖形化介面的方式顯示檔案內容和查找到的關鍵字。另外需計算字元數、單字數、句數，句數需要使用自動化的方式分析，而不是Rule base。
