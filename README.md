@@ -1,15 +1,15 @@
 # BioInfo
-作業一
-開發環境：Python
-IDE：VS code
-使用到的套件：numpy(做矩陣運算)、tkinter(圖形化介面)、pickle(保存train好的機器學習模型)、gensim(計算word to vector)、pattern(做字詞歸一)、sklearn(機器學習)
+# 作業一
+# 開發環境：Python
+# IDE：VS code
+# 使用到的套件：numpy(做矩陣運算)、tkinter(圖形化介面)、pickle(保存train好的機器學習模型)、gensim(計算word to vector)、pattern(做字詞歸一)、sklearn(機器學習)
 
-需求：
+# 需求：
 輸入檔案路徑（XML或JSON）＆關鍵字，用圖形化介面的方式顯示檔案內容和查找到的關鍵字。另外需計算字元數、單字數、句數，句數需要使用自動化的方式分析，而不是Rule base。
 XML：顯示論文的標題、概要及作者
 JSON：顯示twitter的推文、推文者及發布推文的時間
 
-方法：
+# 方法：
 XML、JSON讀檔：使用正則表示式，XML只截取標題、作者、概要，JSON只截取推文內容。
 字元數、單字數：使用正則表示式的方法來做計算。
 關鍵字搜索：使用pattern裡存好的各種單字來做歸一，歸一後的結果相等就會用不同方式顯示那個關鍵字。
